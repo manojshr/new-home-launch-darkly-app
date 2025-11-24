@@ -4,3 +4,7 @@ spring:
 
 launchdarkly:
   sdk-key: ${LD_SDK_KEY}
+  feature-flags:
+    enable-new-home:
+      name: enable-new-home-layout-v2
+      default: false
