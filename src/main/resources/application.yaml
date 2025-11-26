@@ -7,4 +7,16 @@ launchdarkly:
   feature-flags:
     enable-new-home:
       name: enable-new-home-layout-v2
-      default: false
+      offline-default: false
+    enable-offers:
+      name: enable-offers
+      offline-default: false
+    enable-local-news:
+      name: enable-local-news
+      offline-default: false
+    recommendation-algo-version:
+      name: recommendation-algo-version
+      offline-default: "v0"
+    promo-banner-type:
+      name: promo-banner-type
+      offline-default: "none"
